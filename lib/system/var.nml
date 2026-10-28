@@ -1,0 +1,7 @@
+file -> var
+package -> lib.system
+/*UTF-8*/
+
+void function create (Var name,all value) {
+    var name = value;
+}

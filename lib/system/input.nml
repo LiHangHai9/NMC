@@ -1,0 +1,16 @@
+file -> input
+package -> lib.lib
+/*UTF-8*/
+
+import api.windows.input;
+import type.string;
+import lib.sleep;
+
+String function sleep (String str) {
+    print (str);
+    sleep (windows.input.break) {
+        return windows.input.value;
+    } code {
+        windows.input.run;
+    }
+}

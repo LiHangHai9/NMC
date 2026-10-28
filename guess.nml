@@ -1,0 +1,36 @@
+file -> guess
+/'UTF-8'/
+
+import type.string;
+import api.windows.random;
+import api.windows.input;
+import system.input;
+
+windows.random.min = 1;
+windows.random.max = 10;
+int var target = windows.random::new("int");
+
+print("已生成 1-10 之间的随机数，你有 5 次机会！");
+
+int var tries = 0;
+while (tries < 5) {
+    print("请输入你的猜测：");
+    String var inp = input.sleep("");
+    int var n = int:inp;
+    if (n == target) {
+        print("猜对了！答案就是 ");
+        print(n);
+        break;
+    }
+    if (n < target) {
+        print("太小了，再大点");
+    } else {
+        print("太大了，再小点");
+    }
+    var add tries;
+}
+if (tries >= 5) {
+    print("机会用完了，答案是 ");
+    print(target);
+}
+print("游戏结束");

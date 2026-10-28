@@ -1,0 +1,7 @@
+file -> test
+/'UTF-8'/
+
+import type.string;
+
+String var str = "aaa";
+print(str);

@@ -1,0 +1,70 @@
+file -> math
+/'UTF-8'/
+
+import type.string;
+
+// ===== 数学小工具（手写语言 .nml 演示） =====
+
+// 阶乘：递归
+int function factorial (int n) -> {
+    if (n <= 1) -> {
+        return 1;
+    }
+    return n * factorial(n - 1);
+}
+
+// 斐波那契：递归
+int function fib (int n) -> {
+    if (n <= 1) -> {
+        return n;
+    }
+    return fib(n - 1) + fib(n - 2);
+}
+
+// 1 到 n 求和：for 循环
+int function sum (int n) -> {
+    int var total = 0;
+    for (i -> n, i <- 1, 1) -> {
+        var add total i;
+    }
+    return total;
+}
+
+// 判断质数：while + 取模
+int function isPrime (int n) -> {
+    if (n <= 1) -> {
+        return 0;
+    }
+    int var i = 2;
+    while (i < n) -> {
+        if (n % i == 0) -> {
+            return 0;
+        }
+        var add i;
+    }
+    return 1;
+}
+
+// 计算器类：构造函数（重载）+ 方法
+class calc -> {
+    void function calc () -> {
+        print("计算器已创建（无初始值）");
+    }
+    void function calc (int base) -> {
+        print("计算器已创建（初始值）");
+    }
+    int function square (int x) -> {
+        return x * x;
+    }
+}
+
+// ===== 主程序 =====
+print("== 数学小工具 ==");
+print(factorial(5));
+print(fib(10));
+print(sum(100));
+print(isPrime(17));
+print(isPrime(18));
+
+Calc var c = new calc();
+print(c.square(7));

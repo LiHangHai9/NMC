@@ -1,0 +1,12 @@
+file -> t
+/'UTF-8'/
+
+import type.string;
+import lib.sleep;
+
+sleep(1) {
+    print("收尾块");
+} code {
+    print("第一行");
+    print("第二行");
+}

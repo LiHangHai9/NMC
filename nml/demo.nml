@@ -1,0 +1,13 @@
+file -> demo
+/*UTF-8*/
+
+int var num = 10;
+var num = num + 5;
+print(num);
+var num = num - 3;
+print(num);
+var num = num * 2;
+print(num);
+var num = num / 4;
+print(num);
+print((num + 1) * 3);

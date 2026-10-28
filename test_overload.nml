@@ -1,0 +1,17 @@
+file -> test
+/'UTF-8'/
+
+import type.string;
+
+class q -> {
+    void function q () -> {
+        print(" ");
+    }
+    void function q (string a) -> {
+        print(a);
+    }
+}
+
+Q var q = new q();
+Q var num = new q("Aaaaaaa");
+print(num);

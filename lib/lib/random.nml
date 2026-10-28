@@ -1,0 +1,12 @@
+file -> random
+package -> lib.lib
+/*UTF-8*/
+
+import api.windows.random;
+import type.string;
+
+int function randint (int min,int max) {
+    windows.random.max = max;
+    windows.random.min = min;
+    return windows.random::new("int");
+}

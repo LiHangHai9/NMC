@@ -1,0 +1,7 @@
+file -> t
+/'UTF-8'/
+
+import system.input;
+import type.string;
+
+print(input.sleep("请输入："));

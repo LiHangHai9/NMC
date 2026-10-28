@@ -1,0 +1,13 @@
+file -> string
+package -> lib.code
+/*UTF -8*/
+
+import system.var;
+
+String function __quote__ (new str) {
+    return String:str;
+}
+
+void function __var__ (var name,String value) {
+    var.create(name,value);
+}

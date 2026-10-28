@@ -1,0 +1,15 @@
+file -> test
+/'UTF-8'/
+
+import type.string;
+
+class name -> {
+    void function name () -> {
+        print("hello");
+    }
+    int function one () -> {
+        return 1;
+    }
+}
+
+print(name.one()::new());

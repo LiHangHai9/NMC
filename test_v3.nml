@@ -1,0 +1,7 @@
+file -> test
+/'UTF-8'/
+
+import system.var;
+
+var.create(1, 5);
+print(99);

@@ -1,0 +1,8 @@
+file -> t
+/'UTF-8'/
+
+import api.windows.input;
+
+windows.input.run;
+print(windows.input.value);
+print(windows.input.break);

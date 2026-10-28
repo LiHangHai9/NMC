@@ -1,0 +1,13 @@
+file -> sleep
+package -> lib.lib
+/*UTF-8*/
+
+void block sleep (bool time, code -> "sleep") (code -> "code") {
+    for (code codeLine <- code) {
+        run (codeLine);
+        if (time) {
+            break;
+        }
+    }
+    run (sleep);
+}

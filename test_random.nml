@@ -1,0 +1,6 @@
+file -> test
+/'UTF-8'/
+
+import lib.random;
+
+print(random.randint(1,10));

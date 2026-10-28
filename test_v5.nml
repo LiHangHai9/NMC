@@ -1,0 +1,8 @@
+file -> test
+/'UTF-8'/
+
+import type.string;
+import system.var;
+
+var.create("a", 5);
+print(string.__quote__(123));
